@@ -6,7 +6,6 @@
 // nbor | 0
 // Batiments | [HDV]
 
-
 class Village {
     constructor (nbvillageois, nbbois, nbpierre, nbor, Batiments) {
         this.nbvillageois = nbvillageois;
