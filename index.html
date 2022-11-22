@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Animation.js" type="text/javascript"></script>
+    <title>Exo Animation</title>
+</head>
+<body>
+    <div id="carre_bleu" style="width: 200px; height: 200px; background-color:blue;"></div>
+</body>
+
+<script type="text/javascript">
+    const elem = document.getElementById("carre_bleu");
+    let elemAnimation = new Animation(elem);
+    elemAnimation.deplacer("150px", "150px");
+    elemAnimation.agrandir("250px", "300px");
+    elemAnimation.changerCouleur("orange");
+    elemAnimation.pivoter(25);
+    elemAnimation.disparaitre();
+    elemAnimation.apparaitre();
+</script>
+
+</html>
